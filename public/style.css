@@ -1,0 +1,21 @@
+body{
+    background-color: #333;
+    color: #fff
+
+}
+
+a {
+    color: #fff;
+}
+
+article {
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #333;
+}
+
+article a {
+    color: #333;
+}

@@ -1,0 +1,17 @@
+<main>
+    <section>
+        <h1>this is my blog</h1>
+
+        
+        
+        <% for (const data of datas) { %>
+            <article>
+                <h2> <%= data.title %></h2>
+                <p> <%= data.content %></p>
+                <a href="/blog/<%= data.id%>">details blog n°<%= data.id%></a>
+            </article>
+
+        <% } %>
+        
+    </section>
+</main>
