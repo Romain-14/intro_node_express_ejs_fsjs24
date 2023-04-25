@@ -64,5 +64,5 @@ app.post("/contact", (req, res) => {
 });
 
 app.listen(PORT, ()=>{
-    console.log(`Listening at http://localhost:${PORT}`);
+    console.log(`Listening at http://${process.env.HOSTNAME}:${PORT}`);
 });
