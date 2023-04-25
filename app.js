@@ -8,7 +8,7 @@
 import express from 'express';
 // création d'une instance de l'application
 const app = express();
-const PORT = 9000;
+const PORT = process.env.PORT || 9000;
 
 // configuration du rendu
 // le chemin de nos 'vues'
